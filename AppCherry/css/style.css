@@ -1,0 +1,42 @@
+@import url('reset.css');
+
+body {
+	width:460px;
+	margin:30px auto;
+	font-family:sans-serif;
+}
+
+a {
+	display:block;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	text-decoration:none;
+	cursor:pointer;
+	background:#9b0000;
+	color:#fff;
+	font-size:90%;
+	font-weight:bold;
+	-webkit-border-bottom-right-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+a:hover {
+	background:#600000;
+}
+
+#here {
+	width:460px;
+	height:480px;
+	background:#f1f1f1 url(/images/cherrypy.png) no-repeat center center;
+	-webkit-border-top-left-radius: 7px;
+	-webkit-border-top-right-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	-moz-border-radius-topright: 7px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
